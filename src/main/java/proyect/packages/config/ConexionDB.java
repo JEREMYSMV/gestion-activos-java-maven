@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class ConexionDB {
 
     private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=itamdb;encrypt=true;trustServerCertificate=true;";
-    private static final String USER = "a20201234";  //Colocar segun el user de su sql
-    private static final String PASSWORD = "1234"; //Colocar segun el passwor de su sql
+    private static final String USER = "a";  //Colocar segun el user de su sql
+    private static final String PASSWORD = "sa"; //Colocar segun el passwor de su sql
 
     public static Connection getConnection() {
         Connection connection = null;
